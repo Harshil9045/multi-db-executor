@@ -1,0 +1,34 @@
+{
+  "name": "multi-db-executor",
+  "version": "1.0.0",
+  "description": "Executes jsonQuery or rawQuery using a database config (fork of node-database-executor 2.4.8 with BigQuery fixes)",
+  "main": "DatabaseExecutor.js",
+  "files": [
+    "*.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Harshil9045/multi-db-executor.git"
+  },
+  "author": "darshit@byteprophecy.com",
+  "contributors": [
+    "Harshil <harshil@cepheiinfotech.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Harshil9045/multi-db-executor/issues"
+  },
+  "dependencies": {
+    "node-database-connectors": "npm:multi-db-connectors@1.0.0",
+    "debug": "*",
+    "axiom-utils": "*"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "homepage": "https://github.com/Harshil9045/multi-db-executor#readme"
+}
